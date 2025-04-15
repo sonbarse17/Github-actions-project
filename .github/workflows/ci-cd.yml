@@ -22,7 +22,6 @@ jobs:
     - name: Build with Maven
       run: mvn compile
 
-jobs:
   security-check:
   needs: compile
 
